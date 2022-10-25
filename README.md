@@ -53,8 +53,10 @@ public class Calculator {
 - Supprimer la duplication (code/test) et améliorer la lisibilité. C’est la phase du **refactoring**.
 <div>
 <img src="https://user-images.githubusercontent.com/7100940/197822513-46a664e8-aa05-4299-9b15-590fff75c288.png">
-     </div>
-
+<img src="https://user-images.githubusercontent.com/7100940/197823799-e67b61c9-87eb-4bf4-895f-15fb2404d57c.png">
+</div>
+    
+- **Dans ce modèle, vous répétez cycliquement les étapes suivantes :**
 - Écrivez un test unitaire qui échoue. 🔴
 - Écrivez le code qui permet de réussir le test.
 - Nettoyez le code tout en gardant les tests en succès. 🔶
