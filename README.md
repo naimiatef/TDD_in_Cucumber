@@ -1,4 +1,4 @@
-# TD (Test Driven Development)
+# TDD (Test Driven Development)
 - Le TDD est une méthode de conception basée sur les tests proposée par Kent Beck.
 - Le TDD est un processus de développement itératif: Chaque itération commence par un ensemble de tests écrits pour une nouvelle fonctionnalité. Ces tests sont censés échouer au début de l’itération car il n’y aura pas de code d’application correspondant aux tests. Dans la phase suivante de l’itération, le code d’application est écrit avec l’intention de réussir tous les tests écrits précédemment dans l’itération. Une fois que le code d’application est prêt, les tests sont exécutés.
 ## Avantages du TDD
@@ -45,4 +45,12 @@ public class Calculator {
 }
 ```
 - Nous allons maintenant exécuter nos tests Phase 2. Les résultats des tests après ce changement feront passer tous nos tests. Une fois tous les tests réussis, nous conclurons que notre itération est terminée.
-# Le résumer en une figure peut être fait comme ceci
+# Le résumer en une figure peut être fait comme ceci:
+
+
+- Écrivez un test unitaire qui échoue. 🔴
+- Écrivez le code qui permet de réussir le test.
+- Nettoyez le code tout en gardant les tests en succès. 🔶
+- Écrivez le prochain test et recommencez ! 🔄
+- Les tests qui échouent sont décrits comme rouges. Comme dans les feux de circulation, le rouge vous dit de vous arrêter et de faire fonctionner votre code.🚦
+- Quand le test est réussi, on passe au vert. Le vert vous dit de faire du refactoring. Cela signifie simplement que vous essayez de rendre votre code plus lisible et/ou plus élégant sans changer son comportement.
