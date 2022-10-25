@@ -50,7 +50,7 @@ public class Calculator {
 ### Les étapes du TDD :
 - Écrire un test rouge
 - Écrire le code le plus simple pour que le test soit vert
-- Supprimer la duplication (code/test) et améliorer la lisibilité. C’est la phase du refactoring.
+- Supprimer la duplication (code/test) et améliorer la lisibilité. C’est la phase du **refactoring**.
 <div>
 <img src="https://user-images.githubusercontent.com/7100940/197822513-46a664e8-aa05-4299-9b15-590fff75c288.png">
      </div>
