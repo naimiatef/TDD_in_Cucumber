@@ -52,8 +52,8 @@ public class Calculator {
 - Écrire le code le plus simple pour que le test soit vert
 - Supprimer la duplication (code/test) et améliorer la lisibilité. C’est la phase du **refactoring**.
 <div>
-<img src="https://user-images.githubusercontent.com/7100940/197822513-46a664e8-aa05-4299-9b15-590fff75c288.png">
-<img src="https://user-images.githubusercontent.com/7100940/197823799-e67b61c9-87eb-4bf4-895f-15fb2404d57c.png">
+<img src="https://user-images.githubusercontent.com/7100940/197822513-46a664e8-aa05-4299-9b15-590fff75c288.png" width="300" height="300">
+<img src="https://user-images.githubusercontent.com/7100940/197823799-e67b61c9-87eb-4bf4-895f-15fb2404d57c.png" width="300" height="300">
 </div>
     
 - **Dans ce modèle, vous répétez cycliquement les étapes suivantes :**
@@ -63,3 +63,8 @@ public class Calculator {
 - Écrivez le prochain test et recommencez ! 🔄
 - Les tests qui échouent sont décrits comme rouges. Comme dans les feux de circulation, le rouge vous dit de vous arrêter et de faire fonctionner votre code.🚦
 - Quand le test est réussi, on passe au vert. Le vert vous dit de faire du refactoring. Cela signifie simplement que vous essayez de rendre votre code plus lisible et/ou plus élégant sans changer son comportement.
+# En résumé :
+- Développez des logiciels à l’aide de red-green-refactor en :
+- commençant par écrire les tests en décrivant ce que vous devez développer (ils sont en échec, donc rouges) ; 
+- faisant réussir les tests ; et passez-les au vert en écrivant le code de la manière la plus directe possible ;
+- améliorant la lisibilité de votre code en effectuant du refactoring sans casser le test.
