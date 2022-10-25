@@ -7,6 +7,7 @@
 - Le refactoring permet d’améliorer la conception du code
 - Suite de tests de régression de bas niveau
 - Testez d’abord réduisez le coût des bugs
+- si vous écrivez votre code après votre test, ce code est plus facile à tester.
 ## Inconvénients du TDD
 - Le développeur peut le considérer comme une perte de temps
 - Le test peut être ciblé sur la vérification des classes et des méthodes et non sur ce que le code devrait vraiment faire
@@ -46,6 +47,11 @@ public class Calculator {
 ```
 - Nous allons maintenant exécuter nos tests Phase 2. Les résultats des tests après ce changement feront passer tous nos tests. Une fois tous les tests réussis, nous conclurons que notre itération est terminée.
 # Le résumer en une figure peut être fait comme ceci:
+### Les étapes du TDD :
+- Écrire un test rouge
+- Écrire le code le plus simple pour que le test soit vert
+- Supprimer la duplication (code/test) et améliorer la lisibilité. C’est la phase du refactoring.
+
 
 
 - Écrivez un test unitaire qui échoue. 🔴
